@@ -14,3 +14,22 @@ To install `chrispytools`, use the following command:
 
 ```bash
 pip install chrispytools
+```
+
+## Examples - Plotting
+
+<table>
+  <tr>
+    <td><img src="docs/source/img/LinearPlot.png" width="400"></td>
+    <td><img src="docs/source/img/SemiLogXPlot.png" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/source/img/SemiLogYPlot.png" width="400"></td>
+    <td><img src="docs/source/img/ComplexPlot.png" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/source/img/HistogramPlot.png" width="400"></td>
+    <td><img src="docs/source/img/BoxPlot.png" width="400"></td>
+  </tr>
+</table>
+
