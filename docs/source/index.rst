@@ -11,7 +11,9 @@ refined and extended since then. I would love to share these functions with you 
    This documentation is build for ChrisPyTools |version|, last updated |today|.
 
 
-**Quick links:** `GitHub <https://github.com/ChrisHoyer/ChrisPyTools>`__ -
+**Quick links:** `GitHub <https://github.com/ChrisHoyer/ChrisPyTools>`__ - 
+`Documentation <https://chrispytools.readthedocs.io/en/latest/>`__ -
+`Python Package <https://pypi.org/project/pyaltiumlib/>`__
 
 
 .. toctree::
