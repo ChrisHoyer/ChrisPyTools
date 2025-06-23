@@ -1,1 +1,20 @@
-/_lib/__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Sphinx build directories
+build/
+build/*
+
+# Distribution / packaging
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+/tests/local/
