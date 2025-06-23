@@ -4,21 +4,21 @@ Installation & Usage Guide
 Installation
 ============
 
-To install `pyaltiumlib`, use the following command:
+To install `chrispytools`, use the following command:
 
 .. code-block:: bash
 
-    pip install pyaltiumlib
+    pip install chrispytools
 
 Dependencies  
 --------------
 
-The following dependencies are automatically installed with `pyaltiumlib`:
+The following dependencies are automatically installed with `chrispytools`:
 
 - **Python Standard Libraries**: `sys`, `os`, `io`, `math`, `typing`, `logging`
 - **External Libraries**:
-    - `olefile` - for reading ole files (Altium library file container)
-    - `svgwrite` - for rendering schematic and PCB drawings
+    - `matplotlib` - for rendering plots
+    - `numpy` - for math
 
 
 Usage
