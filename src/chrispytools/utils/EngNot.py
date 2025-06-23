@@ -4,7 +4,8 @@ def EngNot( x , sig_figs=3, si=True, exp=True):
     """
     Format a number in engineering notation using powers of 10 in multiples of 3.
     
-    Based on https://stackoverflow.com/questions/17973278/python-decimal-engineering-notation-for-mili-10e-3-and-micro-10e-6
+    Based on `Stack Overflow <https://stackoverflow.com/questions/17973278/python-decimal-engineering-notation-for-mili-10e-3-and-micro-10e-6>`_.
+
     
     Parameters
     ----------
