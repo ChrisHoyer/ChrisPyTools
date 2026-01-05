@@ -20,8 +20,11 @@ version = chrispytools.__version__
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo',
-               'sphinx.ext.coverage', "sphinx.ext.napoleon"]
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.napoleon']
 
 napoleon_google_docstring = True
 
@@ -29,11 +32,14 @@ templates_path = []
 exclude_patterns = []
 
 autodoc_default_options = { "members": True,
-                           "no-index": True,
+                           "noindex": True,
                            "special-members": "__repr__",}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'pydata_sphinx_theme'
 html_static_path = ['img']
+html_theme_options = {
+    "logo": { "text": "ChrisPyTools", },
+}

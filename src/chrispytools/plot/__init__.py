@@ -32,6 +32,7 @@ from .LinearPlot import LinearPlot
 from .PseudoColorPlot import PseudoColorPlot
 from .SemiLogXPlot import SemiLogXPlot
 from .SemiLogYPlot import SemiLogYPlot
+
 from .LinePlot import VLinePlot, HLinePlot
 from .FillPlot import FillPlot, RectanglePlot
 

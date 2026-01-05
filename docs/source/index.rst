@@ -17,15 +17,7 @@ refined and extended since then. I would love to share these functions with you 
 
 
 .. toctree::
-   :caption: Introduction
    :maxdepth: 1
 
    usage/install
-   
-.. toctree::
-   :caption: Reference
-   :maxdepth: 1
-
-   topics/plotting
-   topics/signalprocessing
-   topics/utils
+   modules/index
